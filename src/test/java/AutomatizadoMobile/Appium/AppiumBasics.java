@@ -9,6 +9,7 @@ import java.net.URL;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
 
+import io.appium.java_client.AppiumBy;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
@@ -37,6 +38,10 @@ public class AppiumBasics {
 	options.setApp("D:\\Arquivos de Programas\\Eclipse\\eclipse-workspace\\Appium\\src\\test\\java\\Resources\\ApiDemos-debug.apk");
 	
 	AndroidDriver driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(),options);
+	
+	//Automação
+	driver.findElement(AppiumBy.accessibilityId("Preference")).click();
+	
 	driver.quit();
 	service.stop();
 	}
