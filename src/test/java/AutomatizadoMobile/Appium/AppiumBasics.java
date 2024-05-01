@@ -17,32 +17,14 @@ import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 
 
-public class AppiumBasics {
+public class AppiumBasics extends BaseTest {
 
 	@Test
-	public void AppiumTest() throws MalformedURLException, URISyntaxException {
-		
-	AppiumDriverLocalService service = new AppiumServiceBuilder().withAppiumJS(new File("C:\\Users\\jwest\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js"))		
-			
-			.withIPAddress("127.0.0.1")
-			.usingPort(4723)
-			.build();
-	service.start();
-	UiAutomator2Options options = new UiAutomator2Options();
-	
-	
-	
-	options.setDeviceName("Pixel3");
-//	options.setCapability("deviceName", "Pixel3");
-//	options.setCapability("udid", "emulator-5554");
-	options.setApp("D:\\Arquivos de Programas\\Eclipse\\eclipse-workspace\\Appium\\src\\test\\java\\Resources\\ApiDemos-debug.apk");
-	
-	AndroidDriver driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(),options);
-	
+	public void WifiSettingsName() throws MalformedURLException, URISyntaxException {
+
 	//Automação
 	driver.findElement(AppiumBy.accessibilityId("Preference")).click();
 	
-	driver.quit();
-	service.stop();
+	
 	}
 }
