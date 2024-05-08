@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-07T23:50:28 BRT" name="Default suite" finished-at="2024-05-07T23:50:45 BRT" duration-ms="17637">
+  <suite started-at="2024-05-08T00:45:47 BRT" name="Default suite" finished-at="2024-05-08T00:46:05 BRT" duration-ms="18056">
     <groups>
     </groups>
-    <test started-at="2024-05-07T23:50:28 BRT" name="Default test" finished-at="2024-05-07T23:50:45 BRT" duration-ms="17637">
-      <class name="AutomatizadoMobile.Appium.LongPress">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:AutomatizadoMobile.Appium.LongPress@72cc7e6f]" started-at="2024-05-07T23:50:28 BRT" name="configureAppium" finished-at="2024-05-07T23:50:35 BRT" duration-ms="7624" status="PASS">
+    <test started-at="2024-05-08T00:45:47 BRT" name="Default test" finished-at="2024-05-08T00:46:05 BRT" duration-ms="18056">
+      <class name="AutomatizadoMobile.Appium.ScrollDemo">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:AutomatizadoMobile.Appium.ScrollDemo@5afa3c9]" started-at="2024-05-08T00:45:47 BRT" name="configureAppium" finished-at="2024-05-08T00:45:54 BRT" duration-ms="7440" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="LongPressGesture()[pri:0, instance:AutomatizadoMobile.Appium.LongPress@72cc7e6f]" started-at="2024-05-07T23:50:35 BRT" name="LongPressGesture" finished-at="2024-05-07T23:50:45 BRT" duration-ms="9608" status="PASS">
+        <test-method signature="LongPressGesture()[pri:0, instance:AutomatizadoMobile.Appium.ScrollDemo@5afa3c9]" started-at="2024-05-08T00:45:54 BRT" name="LongPressGesture" finished-at="2024-05-08T00:46:05 BRT" duration-ms="10128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LongPressGesture -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomatizadoMobile.Appium.LongPress@72cc7e6f]" started-at="2024-05-07T23:50:45 BRT" name="tearDown" finished-at="2024-05-07T23:50:45 BRT" duration-ms="367" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomatizadoMobile.Appium.ScrollDemo@5afa3c9]" started-at="2024-05-08T00:46:05 BRT" name="tearDown" finished-at="2024-05-08T00:46:05 BRT" duration-ms="460" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- AutomatizadoMobile.Appium.LongPress -->
+      </class> <!-- AutomatizadoMobile.Appium.ScrollDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
