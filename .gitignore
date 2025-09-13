@@ -1,4 +1,6 @@
-
 /target
 /test-output
-/test-output
+/test-output/junitreports
+.settings/org.eclipse.jdt.core.prefs
+test-output/Default suite/Default test.html
+/.settings

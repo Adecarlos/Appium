@@ -94,6 +94,9 @@ public class BaseTest {
 		WebElement element = driver.findElement(by);
 		return element;
 	}
+	public void startActivityScript(String activity) {
+		((JavascriptExecutor) driver).executeScript("mobile: startActivity",ImmutableMap.of("intent", activity));
+	}
 	
 	@AfterClass
 	public void tearDown() {
