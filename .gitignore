@@ -4,3 +4,4 @@
 .settings/org.eclipse.jdt.core.prefs
 test-output/Default suite/Default test.html
 /.settings
+/.idea
